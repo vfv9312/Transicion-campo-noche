@@ -45,6 +45,10 @@
     en perpectiva*/
     top: 300px;
     transform-origin: 0 50%;
+   
+}
+.seccion-campo h1{
+    color: blueviolet;
 }
 .seccion-nubes{
     width: 100%;
@@ -54,6 +58,22 @@
     div podemos ver que esta es la imagen que esta menos profunda
     y por lo tanto esla que esta encima de todas*/
     transform-origin: 0 50%;
+
 }
+.seccion-caida{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 80px;
+transition: transform 800ms;
+}
+.seccion-caida img{
+    width: 80px;
+}
+.seccion-caida:hover{
+    transform: rotate(-45deg) translateY(15px);
+}
+
 
 /*Hecho por Vladimir Farrera Vera*/
